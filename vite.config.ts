@@ -4,5 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "./", // important for GitHub Pages
+  // Required for GitHub Pages project site:
+  // https://ehsannaeemirad-droid.github.io/persian-grammar-duo/
+  base: "/persian-grammar-duo/",
 });
